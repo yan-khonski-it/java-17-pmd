@@ -11,8 +11,6 @@
 
     <rule ref="category/java/design.xml/SimplifiedTernary"/>
     <rule ref="category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor"/>
-    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable"/>
-    <rule ref="category/java/bestpractices.xml/UnusedPrivateField"/>
     <rule ref="category/java/codestyle.xml/ShortMethodName"/>
     <rule ref="category/java/codestyle.xml/ShortVariable"/>
 </ruleset>

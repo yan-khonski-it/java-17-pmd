@@ -1,6 +1,8 @@
 # pmd-java-17
-Pom file with pmd and Java 17
-New version of a project starter pom which can be reused in other projects.
+It could be used as a starter project to build with **Java 17**, **maven**, **pmd**, **log4j2**.
+You can re-use it in other projects.
+
+Feel free to contribute and improve it.
 
 It uses [Google Style formatting](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml).
 
