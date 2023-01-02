@@ -77,6 +77,9 @@ Added the execution configuration and explicitly use goal **check** in the **pac
 I added **maven-surefire-plugin**.
 https://stackoverflow.com/questions/53433663/maven-not-running-junit-5-tests
 
+### PMD was run after unit tests.
+To fix it, I checked the phase from **package** to **validate**.
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 
 ## Old versions reference (archived).
 - https://github.com/yan-khonski-it/pmd-java-14

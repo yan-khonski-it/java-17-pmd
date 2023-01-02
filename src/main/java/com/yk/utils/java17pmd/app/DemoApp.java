@@ -23,7 +23,7 @@ public class DemoApp {
     LOGGER.info("c: {}", cResult);
 
     // SystemPrintln
-    // System.out.println("susing system out println");
+    // System.out.println("Using system out println");
 
     // SomeClass someClass = new SomeClass(); - LocalVariableCouldBeFinal
     SomeClass someClass = new SomeClass();

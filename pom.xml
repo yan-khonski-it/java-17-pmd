@@ -75,7 +75,7 @@
         <executions>
           <execution>
             <id>check pmd and fail</id>
-            <phase>package</phase>
+            <phase>validate</phase>
             <goals>
               <goal>check</goal>
             </goals>
