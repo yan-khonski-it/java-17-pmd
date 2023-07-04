@@ -12,5 +12,10 @@
     <rule ref="category/java/design.xml/SimplifiedTernary"/>
     <rule ref="category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor"/>
     <rule ref="category/java/codestyle.xml/ShortMethodName"/>
-    <rule ref="category/java/codestyle.xml/ShortVariable"/>
+    <rule ref="category/java/codestyle.xml/ShortVariable">
+        <!-- Name id is valid name -->
+        <properties>
+            <property name="violationSuppressXPath" value=".[@Name='id']"/>
+        </properties>
+    </rule>
 </ruleset>

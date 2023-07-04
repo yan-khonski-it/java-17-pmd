@@ -21,6 +21,8 @@ public class DemoApp {
 
     int cResult = aVariable + b;
     LOGGER.info("c: {}", cResult);
+    int id = 15; // id name is allowed by exception
+    LOGGER.info("id: {}", id);
 
     // SystemPrintln
     // System.out.println("Using system out println");
