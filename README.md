@@ -1,4 +1,8 @@
 # pmd-java-17
+
+## ARCHIVED
+> Use https://github.com/yan-khonski-it/pmd-java-21
+
 It could be used as a starter project to build with **Java 17**, **maven**, **pmd**, **log4j2**.
 You can re-use it in other projects.
 
